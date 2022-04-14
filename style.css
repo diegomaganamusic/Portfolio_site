@@ -1,0 +1,49 @@
+/* a minimalist set of CSS resets */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fjalla+One&display=swap");
+#titlefont {
+  font-size: 80px;
+  font-family: "Archivo Black", sans-serif;
+  color: #a66851;
+  margin: 0;
+}
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #a66851;
+}
+.socials {
+  margin-left: 1250px;
+}
+ul {
+  list-style-type: none;
+}
+li {margin-top:40px;}
+.headshot {
+  background-image: url("https://lh3.googleusercontent.com/GwQCZFgEnFGtI6rthDNo17QlfUr8yxJ9jsv6o6qPDlHvsk18HI8Hv681C23nBHyuYHQYT02bH4EVyr7dkC6_Pi3jhsDUSKpq6WFsiZGWppRNPSGmYp7DVBqCIbSBWBe9aIf-y9Zb0MQxhr2RShc4rr239XqT2ZCzOEcr6X5-e-60YXuJmZ81jFTTLS4Lyog3Y9bh7BkBuSlVF3T-jGh0jOHS2Ys9aEPim8y59mVFNtv6HltbX_Y5a_ZoR0F252bjzjFAkei-E4JwuqxyrMPfW2Lc1w9Mb9SvmipryBqgU-cz3WbjBjHLQSnmj8TK7sbEjJiBWykt7THp25TIhjgJ9FV8B8vYmxb5DL8buMQ12YdC4acdBvxLZ4gP0V-tkgR-EgBkhiwqkuP1AGpxRkvkqju4DPqDwNDYz7WikzQXTZVrsMxg0IHGvsZdALlbW6HuKQx7ixymHLpYghrjMc_L-0pcIul4ule9DnQXkxEN21zYWN9PK0_7pZBLTebSOFxyqDlcofnII1V7aMd86fQCTyrfnjclp0lRXveKTDePEeLPCz9fH0J-745l3FyfncNwV39idUAc2INyISfK-5q3KDgp8oSvpvwuhTmydrHPosHn2iDWgvgxbraLyxDJUP5stxn_7T4f_HEwVZYNZyFhpdrghaNkQm_4l7N0J9Xq9oKRpn66dvxqVN0sAdVcv1k3AlSntk9hwGyP8N9og1O0orZMCQ=w1420-h942-no?authuser=0");
+  background-repeat: 0;
+  height: 900px;
+  margin: 0;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+}
